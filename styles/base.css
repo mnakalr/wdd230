@@ -1,0 +1,88 @@
+/* base.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background: #f8f8f8;
+    line-height: 1.6;
+}
+
+/* Header Layout using Grid */
+.header-content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 10px;
+    background-color: #307D7E; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+header img {
+    max-width: 100px; /* Adjust this value as needed */
+    height: auto;
+    border-radius: 50%; /* Optional: creates a circle avatar look */
+}
+
+header, nav, main, footer {
+    padding: 1rem;
+    margin: auto;
+}
+
+h2 {
+    border: 1px solid #ccc; /* Fixed border property */
+    background-color:  #307D7E;
+    text-decoration: none;
+    color: #ffffff;;
+    padding: 0.5rem;
+}
+
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 0.1rem; /* Spacing between nav items */
+    border-radius: 10px;
+    background-color: rgb(1, 9, 8);
+}
+
+nnav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text */
+    display: block; /* Make the link fill the entire list item */
+    padding: 0.5rem 1rem; /* Add some padding around the text */
+    border: 2px solid #0b0404; /* Original border color */
+    background-color: #333333; /* Original background color */
+    border-radius: 10px; /* Apply border-radius to anchor tags as well */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+nav ul li a:hover {
+    color: #ffffff; /* Keep text color the same or change as desired */
+    border-color: #7f7d7d; /* Change to a lighter border on hover */
+}
+
+
+/* Card styling */
+.card {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+
+footer {
+    font-size: 0.875rem;
+    background-color:  #307D7E;
+    text-decoration: none;
+    color: #ffffff;
+}

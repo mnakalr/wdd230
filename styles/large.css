@@ -1,0 +1,18 @@
+/* larger.css */
+@media (min-width: 768px) { /* You can choose your own breakpoint */
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    main {
+        max-width: 1200px; /* Limit the width of main content area */
+        margin: auto;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* Learning Activities card is twice as wide */
+        grid-gap: 1rem; /* Space between cards */
+    }
+}
